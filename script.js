@@ -48,3 +48,5 @@ function deleteTask(index) {
 
     displayTasks();
 }
+document.getElementById("welcome").innerText =
+"Welcome " + (localStorage.getItem("user") || "Guest");
